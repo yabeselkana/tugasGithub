@@ -20,3 +20,10 @@ const nilai_k = 10;
 const nilai_h = 50;
 
 const nilai_l = nilai_k / nilai_h;
+
+const angka = (nilai) => {
+  if (nilai >= 89) {
+    const hasil = " Kamu Lulus ";
+    return hasil;
+  }
+};

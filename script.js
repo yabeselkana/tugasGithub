@@ -15,3 +15,8 @@ const nilai_w = 10;
 const nilai_o = 50;
 
 const nilai_f = nilai_w - nilai_o;
+
+const nilai_k = 10;
+const nilai_h = 50;
+
+const nilai_l = nilai_k / nilai_h;

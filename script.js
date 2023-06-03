@@ -1,15 +1,7 @@
-// Togel class active
+const nama = " Yabes Elkana Zega ";
 
-const navbarNav = document.querySelector(".navbar-nav");
-
-document.querySelector("#hamburger-menu").onclick = () => {
-  navbarNav.classList.toggle("active");
+const bioData = (text) => {
+  console.log(text);
 };
 
-const hamburger = document.querySelector("#hamburger-menu");
-
-document.addEventListener("click", function (e) {
-  if (!hamburger.contains(e.target) && !navbarNav.contains(e.target)) {
-    navbarNav.classList.remove("active");
-  }
-});
+bioData(nama);
